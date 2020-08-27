@@ -4,6 +4,23 @@ body {
 
 .App {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.team-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-text {
+  margin: 0;
+}
+
+button {
+  margin-bottom: 50px;
+  margin-right: 6px;
+  margin-left: 6px;
 }
 
